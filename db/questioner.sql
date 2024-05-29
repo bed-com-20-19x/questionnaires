@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS questioner;
+CREATE DATABASE IF NOT EXISTS `questioner`;
 
-USE questioner;
+USE `questioner`;
 
 CREATE TABLE IF NOT EXISTS survey_responses (
     id INT(11) AUTO_INCREMENT PRIMARY KEY,
